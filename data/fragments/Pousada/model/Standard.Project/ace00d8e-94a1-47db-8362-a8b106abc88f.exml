@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pousada" version="4">
+  <OBJECT>
+    <ID name="Pousada" mc="Standard.Project" uid="ace00d8e-94a1-47db-8362-a8b106abc88f"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Pousada]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="Requisitos" mc="Standard.Package" uid="f3919617-5744-495a-b866-a2abce981865"/>
+        <COMPID name="ModeloDomínio" mc="Standard.Package" uid="6dee9137-90a0-4857-aad5-522830351a40"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Pousada" mc="Infrastructure.DiagramSet" uid="2f5e6ef1-080d-4fc6-8150-81e597a96dbd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

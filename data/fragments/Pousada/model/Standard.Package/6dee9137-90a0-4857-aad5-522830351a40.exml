@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ModeloDomínio" version="4">
+  <OBJECT>
+    <ID name="ModeloDomínio" mc="Standard.Package" uid="6dee9137-90a0-4857-aad5-522830351a40"/>
+    <PID name="Pousada" mc="Standard.Project" uid="ace00d8e-94a1-47db-8362-a8b106abc88f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ModeloDomínio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cliente" mc="Standard.Class" uid="4f297b2a-e67f-4119-99c9-e31681f0ac97"/>
+        <COMPID name="Reserva" mc="Standard.Class" uid="b27c00fd-7ae7-4a19-8c74-7e51377d9a7f"/>
+        <COMPID name="Hospede" mc="Standard.Class" uid="771784aa-6647-4b7d-bec8-77927323da18"/>
+        <COMPID name="Chave" mc="Standard.Class" uid="1376c4bb-573e-47a5-b730-776c2bb9bf40"/>
+        <COMPID name="Suite" mc="Standard.Class" uid="265bb709-c289-48ff-8da4-82c08d4a8311"/>
+        <COMPID name="Movimentacao" mc="Standard.Class" uid="b6735003-e5c7-4927-84a5-efce89c702c0"/>
+        <COMPID name="Estadia" mc="Standard.Class" uid="2dbb6e02-9af4-4507-810e-92f94058fe66"/>
+        <OBJECT>
+          <ID name="StatusReserva" mc="Standard.Enumeration" uid="1496c325-0af9-48cb-ae69-fdec56b2d30d"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[StatusReserva]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="ativa" mc="Standard.EnumerationLiteral" uid="15f2bd7d-587b-432e-85dc-dd540090800c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ativa]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="finalizada" mc="Standard.EnumerationLiteral" uid="90d58dbb-1be1-4050-b0ea-8472f17f33fb"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[finalizada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="cancelada" mc="Standard.EnumerationLiteral" uid="e868ba4e-d530-48d8-9d0e-ff77cede5716"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[cancelada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TipoMovimentacao" mc="Standard.Enumeration" uid="b799fb4f-7087-4377-bb47-7eae8827895e"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[TipoMovimentacao]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="entrada" mc="Standard.EnumerationLiteral" uid="9e206b9d-86bc-4b18-869e-b6a6e172440f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[entrada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="saida" mc="Standard.EnumerationLiteral" uid="ad43f9f4-71b8-4dc6-a21e-9c6762138324"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[saida]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="StatusSuite" mc="Standard.Enumeration" uid="56ae20b9-e5c3-4923-be42-ff70bda36669"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[StatusSuite]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="livre" mc="Standard.EnumerationLiteral" uid="fdf6c6ed-06c7-4a80-8c1d-06bf628ff57c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[livre]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="reservada" mc="Standard.EnumerationLiteral" uid="581487a9-9412-4a17-aeb9-14e740b49050"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[reservada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="emManutencao" mc="Standard.EnumerationLiteral" uid="6452a56c-e30f-4765-8168-9dbff366daea"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[emManutencao]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ModeloDomínio Class diagram" mc="Standard.ClassDiagram" uid="db2bb95f-c7a5-42b2-a91e-6a0a0a167864"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
