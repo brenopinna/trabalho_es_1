@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ControleCaixa" version="4">
+  <OBJECT>
+    <ID name="ControleCaixa" mc="Standard.Package" uid="020708d7-b58c-4b06-9db4-275fbe5fc32c"/>
+    <PID name="ModeloDomínio" mc="Standard.Package" uid="6dee9137-90a0-4857-aad5-522830351a40"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ControleCaixa]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="TipoMovimentacao" mc="Standard.Enumeration" uid="b799fb4f-7087-4377-bb47-7eae8827895e"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[TipoMovimentacao]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="entrada" mc="Standard.EnumerationLiteral" uid="9e206b9d-86bc-4b18-869e-b6a6e172440f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[entrada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="saida" mc="Standard.EnumerationLiteral" uid="ad43f9f4-71b8-4dc6-a21e-9c6762138324"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[saida]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Movimentacao" mc="Standard.Class" uid="b6735003-e5c7-4927-84a5-efce89c702c0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
