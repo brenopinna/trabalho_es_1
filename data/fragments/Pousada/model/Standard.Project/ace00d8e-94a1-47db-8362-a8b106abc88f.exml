@@ -12,6 +12,7 @@
       <COMP relation="Model">
         <COMPID name="Requisitos" mc="Standard.Package" uid="f3919617-5744-495a-b866-a2abce981865"/>
         <COMPID name="ModeloDomínio" mc="Standard.Package" uid="6dee9137-90a0-4857-aad5-522830351a40"/>
+        <COMPID name="Design" mc="Standard.Package" uid="5552fc6d-7824-4379-afdc-4ef9e323491d"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="Pousada" mc="Infrastructure.DiagramSet" uid="2f5e6ef1-080d-4fc6-8150-81e597a96dbd"/>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="OutrosModelos" version="4">
+  <OBJECT>
+    <ID name="OutrosModelos" mc="Standard.Package" uid="90e0b6fb-f8d1-4dc7-bbd0-3020db697253"/>
+    <PID name="Design" mc="Standard.Package" uid="5552fc6d-7824-4379-afdc-4ef9e323491d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[OutrosModelos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="5262a6e2-b303-451d-b80c-8c0dd56faa72"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

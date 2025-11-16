@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Design" version="4">
+  <OBJECT>
+    <ID name="Design" mc="Standard.Package" uid="5552fc6d-7824-4379-afdc-4ef9e323491d"/>
+    <PID name="Pousada" mc="Standard.Project" uid="ace00d8e-94a1-47db-8362-a8b106abc88f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Design]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="OutrosModelos" mc="Standard.Package" uid="90e0b6fb-f8d1-4dc7-bbd0-3020db697253"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
