@@ -20,12 +20,11 @@
         <COMPID name="Emitir Relatório de Ocupação" mc="Standard.UseCase" uid="4a9a1789-228d-44d1-9a98-1808b44728f0"/>
         <COMPID name="Solicitar Reserva" mc="Standard.UseCase" uid="34bdcd02-5bea-4e11-a26d-c5fb16ce890b"/>
         <COMPID name="Aprovar Reserva" mc="Standard.UseCase" uid="70a07447-28ea-411a-9495-588c2445bf2f"/>
-        <COMPID name="Controlar Informações da Suíte" mc="Standard.UseCase" uid="34348642-9097-4b2a-adb5-c058ff522035"/>
+        <COMPID name="Controlar Informações de Suíte" mc="Standard.UseCase" uid="34348642-9097-4b2a-adb5-c058ff522035"/>
         <COMPID name="Controlar Chaves" mc="Standard.UseCase" uid="9bf8b215-5eed-4cf8-aa35-d9d052660175"/>
-        <COMPID name="Consultar Disponibilidade de Suítes" mc="Standard.UseCase" uid="d714d5f1-fa83-466c-a419-ec15e320ad5b"/>
+        <COMPID name="Consultar Disponibilidade de Suíte" mc="Standard.UseCase" uid="d714d5f1-fa83-466c-a419-ec15e320ad5b"/>
         <COMPID name="Confirmar Reserva" mc="Standard.UseCase" uid="8b3180da-7064-4e22-aa2f-fd54c76fb11b"/>
-        <COMPID name="Preencher Ficha" mc="Standard.UseCase" uid="593b0c6c-153c-4a02-9524-81164c6de785"/>
-        <COMPID name="Realizar Pagamento" mc="Standard.UseCase" uid="985b860c-2d0f-4b5a-acae-cd3d59b148f9"/>
+        <COMPID name="Preencher Ficha de Hóspede" mc="Standard.UseCase" uid="593b0c6c-153c-4a02-9524-81164c6de785"/>
         <COMPID name="Cancelar Reserva" mc="Standard.UseCase" uid="a89e05ca-692e-4ec1-86bd-4cb9f21559e8"/>
         <COMPID name="Cliente" mc="Standard.Actor" uid="d4ec77ff-b679-43ce-8600-7d054a10d4d5"/>
         <COMPID name="Alterar Valor da Diária" mc="Standard.UseCase" uid="17f398b8-bf53-44a6-b100-010893522c50"/>
@@ -33,6 +32,7 @@
         <COMPID name="Cadastrar Cliente" mc="Standard.UseCase" uid="abb34630-ab66-4b0d-a29a-7fe8ac3f1751"/>
         <COMPID name="Usuário" mc="Standard.Actor" uid="30eb75a3-d9fd-4a97-95cd-0c9debb482cd"/>
         <COMPID name="Visitante" mc="Standard.Actor" uid="bd208cc7-03f7-4225-9c34-186ebb3e7a0b"/>
+        <COMPID name="Controlar Ficha de Hóspede" mc="Standard.UseCase" uid="680aaf01-3aa2-4b58-9ab3-a9f208a30c13"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Requisitos Use Case diagram" mc="Standard.UseCaseDiagram" uid="cc8f1cf8-0bff-4897-b844-31e0f3943cab"/>

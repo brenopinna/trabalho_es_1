@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Consultar Disponibilidade de Suítes" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Consultar Disponibilidade de Suíte" version="4">
   <OBJECT>
-    <ID name="Consultar Disponibilidade de Suítes" mc="Standard.UseCase" uid="d714d5f1-fa83-466c-a419-ec15e320ad5b"/>
+    <ID name="Consultar Disponibilidade de Suíte" mc="Standard.UseCase" uid="d714d5f1-fa83-466c-a419-ec15e320ad5b"/>
     <PID name="Requisitos" mc="Standard.Package" uid="f3919617-5744-495a-b866-a2abce981865"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Consultar Disponibilidade de Suítes]]></ATT>
+      <ATT name="Name"><![CDATA[Consultar Disponibilidade de Suíte]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
