@@ -1,5 +1,4 @@
-#Tue Nov 18 12:39:40 BRT 2025
+#Fri Nov 21 19:32:55 BRT 2025
 org.modelio.app.diagram.editor.OpenedDiagrams0='ModeloDom\u00EDnio Class diagram' {db2bb95f-c7a5-42b2-a91e-6a0a0a167864} Standard.ClassDiagram
 org.modelio.app.model.search.ui.SearchHistory1=generalclass
-org.modelio.app.diagram.editor.OpenedDiagrams1='Requisitos Use Case diagram' {cc8f1cf8-0bff-4897-b844-31e0f3943cab} Standard.UseCaseDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams2='Reserva' {0f819507-b833-4d0b-8e0c-6e5c9cdab2ea} Standard.ActivityDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='Reserva' {0f819507-b833-4d0b-8e0c-6e5c9cdab2ea} Standard.ActivityDiagram
