@@ -18,6 +18,39 @@
         <COMPID name="ControleCaixa" mc="Standard.Package" uid="3897ba02-c96e-4b65-83e9-d4b061e1ce10"/>
         <COMPID name="Pessoa" mc="Standard.Class" uid="0b7acabe-e388-4e2a-9e1e-7dd21e761f31"/>
         <COMPID name="Cliente" mc="Standard.Class" uid="26245889-ff26-4d2a-af4d-33fc08b77628"/>
+        <COMPID name="Usuário" mc="Standard.Class" uid="da397ccc-449a-470f-8909-02cc666193f2"/>
+        <OBJECT>
+          <ID name="PerfilUsuario" mc="Standard.Enumeration" uid="a46d8385-39d8-49eb-bc4c-7969e54b9a06"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[PerfilUsuario]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="gerente" mc="Standard.EnumerationLiteral" uid="8d5600af-75b2-4795-a851-e842492f9007"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[gerente]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="cliente" mc="Standard.EnumerationLiteral" uid="20b4be66-d622-402c-a2f8-50833f5840a6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[cliente]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Modelo de Projeto Class diagram" mc="Standard.ClassDiagram" uid="37482b38-5184-402e-93a4-4ed0ad0fb320"/>

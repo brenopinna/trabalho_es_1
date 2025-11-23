@@ -80,7 +80,7 @@
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="c00577fc-6cfd-42c9-bad4-baa2566b1f1f"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="358ace41-7acf-4220-907a-5d8aad75c1fc"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -88,7 +88,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Pessoa" mc="Standard.Class" uid="0b7acabe-e388-4e2a-9e1e-7dd21e761f31"/>
+              <ID name="Usuário" mc="Standard.Class" uid="da397ccc-449a-470f-8909-02cc666193f2"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
