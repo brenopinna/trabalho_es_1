@@ -185,11 +185,46 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="dad34d15-9b1c-43bf-9924-2e4c21da5dad"/>
-        </REFOBJ>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="7981e79d-fd2c-4f33-ae87-23457d3ac6da"/>
+          <ID name="responsável" mc="Standard.AssociationEnd" uid="03c3acad-f873-48da-aaed-5d4ded79f1bc"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[responsável]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Hospede" mc="Standard.Class" uid="1581c814-b3b4-487f-ae52-9d67f06abf30"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <REFOBJ>
+                <ID name="menor de idade" mc="Standard.AssociationEnd" uid="1be7ee6f-bd58-49bf-bbf0-5834ac823bed"/>
+              </REFOBJ>
+            </COMP>
+            <COMP relation="Association">
+              <OBJECT>
+                <ID name="" mc="Standard.Association" uid="7ce297b4-ca9b-4f6c-9a4d-e46c43e81ff0"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.AssociationEnd" uid="dad34d15-9b1c-43bf-9924-2e4c21da5dad"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -206,21 +241,26 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Hospede" mc="Standard.Class" uid="1581c814-b3b4-487f-ae52-9d67f06abf30"/>
+            </LINK>
             <COMP relation="Opposite">
               <REFOBJ>
-                <ID name="" mc="Standard.AssociationEnd" uid="100dc08e-7074-435d-b542-34b3e7de66a9"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="01c25dd0-c9eb-4dbf-b4e7-33f3269ab674"/>
               </REFOBJ>
             </COMP>
             <COMP relation="Association">
-              <REFOBJ>
-                <ID name="" mc="Standard.Association" uid="fedc0c79-c764-4e22-8afe-5074ade15f65"/>
-              </REFOBJ>
+              <OBJECT>
+                <ID name="" mc="Standard.Association" uid="4c69cc86-cb9d-4796-8311-e59f3bf7cfce"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <REFOBJ>
-          <ID name="responsável" mc="Standard.AssociationEnd" uid="03c3acad-f873-48da-aaed-5d4ded79f1bc"/>
-        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
