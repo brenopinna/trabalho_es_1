@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cliente" version="4">
   <OBJECT>
     <ID name="Cliente" mc="Standard.Class" uid="26245889-ff26-4d2a-af4d-33fc08b77628"/>
-    <PID name="ControleHospedagem" mc="Standard.Package" uid="84b78132-6d04-496f-ae41-dcdc9937aa0a"/>
+    <PID name="Modelo de Projeto" mc="Standard.Package" uid="da6b3db1-aeb8-4ec7-ab92-b2a5353ed35b"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

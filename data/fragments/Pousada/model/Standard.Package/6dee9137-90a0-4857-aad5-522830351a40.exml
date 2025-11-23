@@ -16,6 +16,8 @@
       <COMP relation="OwnedElement">
         <COMPID name="ControleHospedagem" mc="Standard.Package" uid="53ddeaaa-1321-4dde-a43b-e89e683c3593"/>
         <COMPID name="ControleCaixa" mc="Standard.Package" uid="020708d7-b58c-4b06-9db4-275fbe5fc32c"/>
+        <COMPID name="Pessoa" mc="Standard.Class" uid="4a622caa-8adb-45b5-93b4-70b3a2a06c1e"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="4f297b2a-e67f-4119-99c9-e31681f0ac97"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="ModeloDomínio Class diagram" mc="Standard.ClassDiagram" uid="db2bb95f-c7a5-42b2-a91e-6a0a0a167864"/>

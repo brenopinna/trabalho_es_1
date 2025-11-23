@@ -14,13 +14,11 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Cliente" mc="Standard.Class" uid="26245889-ff26-4d2a-af4d-33fc08b77628"/>
         <COMPID name="Hospede" mc="Standard.Class" uid="1581c814-b3b4-487f-ae52-9d67f06abf30"/>
         <COMPID name="Reserva" mc="Standard.Class" uid="8703475d-09ff-48bd-b036-c6e93bf16fc1"/>
         <COMPID name="Estadia" mc="Standard.Class" uid="5cee2d98-6378-461e-95ae-fc825188265c"/>
         <COMPID name="Suite" mc="Standard.Class" uid="2c85249c-9a25-4d19-acad-1d9430c08c8f"/>
         <COMPID name="Chave" mc="Standard.Class" uid="ca59beef-e9ed-44d0-9dd2-64d64d61a7cb"/>
-        <COMPID name="Pessoa" mc="Standard.Class" uid="0b7acabe-e388-4e2a-9e1e-7dd21e761f31"/>
         <OBJECT>
           <ID name="StatusReserva" mc="Standard.Enumeration" uid="98a22343-431a-4cfb-becc-8b966ce63ec6"/>
           <ATTRIBUTES>
