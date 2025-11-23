@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Reserva Activity diagram" version="4">
   <OBJECT>
-    <ID name="Activity" mc="Standard.Activity" uid="5262a6e2-b303-451d-b80c-8c0dd56faa72"/>
-    <PID name="OutrosModelos" mc="Standard.Package" uid="90e0b6fb-f8d1-4dc7-bbd0-3020db697253"/>
+    <ID name="Reserva Activity diagram" mc="Standard.Activity" uid="5262a6e2-b303-451d-b80c-8c0dd56faa72"/>
+    <PID name="Atividades" mc="Standard.Package" uid="21a9d9da-8e7b-42e8-91e2-8b0bd3e88291"/>
     <ATTRIBUTES>
       <ATT name="IsSingleExecution">false</ATT>
       <ATT name="IsReadOnly">false</ATT>
       <ATT name="IsReentrant">false</ATT>
-      <ATT name="Name"><![CDATA[Activity]]></ATT>
+      <ATT name="Name"><![CDATA[Reserva Activity diagram]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

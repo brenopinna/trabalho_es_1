@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Atividades" version="4">
+  <OBJECT>
+    <ID name="Atividades" mc="Standard.Package" uid="21a9d9da-8e7b-42e8-91e2-8b0bd3e88291"/>
+    <PID name="OutrosModelos" mc="Standard.Package" uid="90e0b6fb-f8d1-4dc7-bbd0-3020db697253"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Atividades]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Reserva Activity diagram" mc="Standard.Activity" uid="5262a6e2-b303-451d-b80c-8c0dd56faa72"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
