@@ -292,6 +292,20 @@
       <LINK relation="Extension">
         <ID name="control" mc="Infrastructure.Stereotype" uid="95701d8a-8b88-4223-9e6e-480970fb3241"/>
       </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="62205b04-8927-4a2c-bb51-00245c5d144f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Usuario" mc="Standard.Class" uid="da397ccc-449a-470f-8909-02cc666193f2"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

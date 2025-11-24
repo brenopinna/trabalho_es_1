@@ -75,7 +75,7 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="numPessoas" mc="Standard.Parameter" uid="dec107e9-fc4a-49b0-91bd-cc71dd97b4af"/>
+                <ID name="numHospedes" mc="Standard.Parameter" uid="dec107e9-fc4a-49b0-91bd-cc71dd97b4af"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -87,7 +87,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[numPessoas]]></ATT>
+                  <ATT name="Name"><![CDATA[numHospedes]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -205,6 +205,20 @@
       <LINK relation="Extension">
         <ID name="control" mc="Infrastructure.Stereotype" uid="95701d8a-8b88-4223-9e6e-480970fb3241"/>
       </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="59b328ed-38a5-4d63-92e9-12db80e9506e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Suite" mc="Standard.Class" uid="2c85249c-9a25-4d19-acad-1d9430c08c8f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

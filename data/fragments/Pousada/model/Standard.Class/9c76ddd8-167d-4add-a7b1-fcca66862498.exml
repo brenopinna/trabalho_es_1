@@ -117,7 +117,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="consultarChavesDaSuite" mc="Standard.Operation" uid="8957ad18-e241-45ca-a8fd-dfbdc7c22c50"/>
+          <ID name="consultarChavesSuite" mc="Standard.Operation" uid="8957ad18-e241-45ca-a8fd-dfbdc7c22c50"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -125,7 +125,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[consultarChavesDaSuite]]></ATT>
+            <ATT name="Name"><![CDATA[consultarChavesSuite]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -180,7 +180,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="estaDisponivel" mc="Standard.Operation" uid="f16b03c8-8b55-478e-b3ea-2ab759dad07a"/>
+          <ID name="isDisponivel" mc="Standard.Operation" uid="f16b03c8-8b55-478e-b3ea-2ab759dad07a"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -188,7 +188,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[estaDisponivel]]></ATT>
+            <ATT name="Name"><![CDATA[isDisponivel]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -246,6 +246,44 @@
       <LINK relation="Extension">
         <ID name="control" mc="Infrastructure.Stereotype" uid="95701d8a-8b88-4223-9e6e-480970fb3241"/>
       </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="f91a4d0d-ac45-4951-9472-c3345364bda8"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Chave" mc="Standard.Class" uid="ca59beef-e9ed-44d0-9dd2-64d64d61a7cb"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="cea6b865-5426-409f-93cc-b7d65225d95e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Hospede" mc="Standard.Class" uid="1581c814-b3b4-487f-ae52-9d67f06abf30"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="e2931031-45c5-4836-b294-e17ce9380292"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Suite" mc="Standard.Class" uid="2c85249c-9a25-4d19-acad-1d9430c08c8f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>
