@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ControladorReserva" version="4">
   <OBJECT>
     <ID name="ControladorReserva" mc="Standard.Class" uid="8cd0af12-4c87-454c-bb5c-fd2e5c42e18f"/>
-    <PID name="ControleHospedagem" mc="Standard.Package" uid="84b78132-6d04-496f-ae41-dcdc9937aa0a"/>
+    <PID name="Hospedagem" mc="Standard.Package" uid="84b78132-6d04-496f-ae41-dcdc9937aa0a"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -301,6 +301,9 @@
             <LINK relation="DependsOn">
               <ID name="Reserva" mc="Standard.Class" uid="8703475d-09ff-48bd-b036-c6e93bf16fc1"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="parameter" mc="Infrastructure.Stereotype" uid="7454fb85-b726-46fe-8390-ed268fdc9f4f"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
@@ -312,6 +315,9 @@
           <DEPENDENCIES>
             <LINK relation="DependsOn">
               <ID name="Hospede" mc="Standard.Class" uid="1581c814-b3b4-487f-ae52-9d67f06abf30"/>
+            </LINK>
+            <LINK relation="Extension">
+              <ID name="parameter" mc="Infrastructure.Stereotype" uid="7454fb85-b726-46fe-8390-ed268fdc9f4f"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ControleCaixa" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Financeiro" version="4">
   <OBJECT>
-    <ID name="ControleCaixa" mc="Standard.Package" uid="020708d7-b58c-4b06-9db4-275fbe5fc32c"/>
+    <ID name="Financeiro" mc="Standard.Package" uid="020708d7-b58c-4b06-9db4-275fbe5fc32c"/>
     <PID name="ModeloDomínio" mc="Standard.Package" uid="6dee9137-90a0-4857-aad5-522830351a40"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ControleCaixa]]></ATT>
+      <ATT name="Name"><![CDATA[Financeiro]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

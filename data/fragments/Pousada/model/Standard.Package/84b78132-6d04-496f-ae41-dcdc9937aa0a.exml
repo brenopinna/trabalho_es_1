@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ControleHospedagem" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Hospedagem" version="4">
   <OBJECT>
-    <ID name="ControleHospedagem" mc="Standard.Package" uid="84b78132-6d04-496f-ae41-dcdc9937aa0a"/>
+    <ID name="Hospedagem" mc="Standard.Package" uid="84b78132-6d04-496f-ae41-dcdc9937aa0a"/>
     <PID name="Modelo de Projeto" mc="Standard.Package" uid="da6b3db1-aeb8-4ec7-ab92-b2a5353ed35b"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">true</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ControleHospedagem]]></ATT>
+      <ATT name="Name"><![CDATA[Hospedagem]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

@@ -11,6 +11,7 @@
       <COMP relation="DefinedStereotype">
         <COMPID name="boundary" mc="Infrastructure.Stereotype" uid="7cbccc16-dfa2-4f33-9df2-40378487def4"/>
         <COMPID name="control" mc="Infrastructure.Stereotype" uid="95701d8a-8b88-4223-9e6e-480970fb3241"/>
+        <COMPID name="parameter" mc="Infrastructure.Stereotype" uid="7454fb85-b726-46fe-8390-ed268fdc9f4f"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

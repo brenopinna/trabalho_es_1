@@ -14,8 +14,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="ControleHospedagem" mc="Standard.Package" uid="84b78132-6d04-496f-ae41-dcdc9937aa0a"/>
-        <COMPID name="ControleCaixa" mc="Standard.Package" uid="3897ba02-c96e-4b65-83e9-d4b061e1ce10"/>
+        <COMPID name="Hospedagem" mc="Standard.Package" uid="84b78132-6d04-496f-ae41-dcdc9937aa0a"/>
+        <COMPID name="Financeiro" mc="Standard.Package" uid="3897ba02-c96e-4b65-83e9-d4b061e1ce10"/>
         <COMPID name="Fronteira" mc="Standard.Package" uid="0e6918cc-8582-4486-8a78-0e5489282b57"/>
         <COMPID name="Autenticacao" mc="Standard.Package" uid="e4628173-13f0-4a47-a5d8-861cf80d627d"/>
         <COMPID name="Base" mc="Standard.Package" uid="c9077424-364b-4b16-b80d-15c5d5f7acae"/>

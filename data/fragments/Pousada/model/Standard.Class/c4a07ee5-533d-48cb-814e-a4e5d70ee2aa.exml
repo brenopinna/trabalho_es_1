@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ControladorEstadia" version="4">
   <OBJECT>
     <ID name="ControladorEstadia" mc="Standard.Class" uid="c4a07ee5-533d-48cb-814e-a4e5d70ee2aa"/>
-    <PID name="ControleHospedagem" mc="Standard.Package" uid="84b78132-6d04-496f-ae41-dcdc9937aa0a"/>
+    <PID name="Hospedagem" mc="Standard.Package" uid="84b78132-6d04-496f-ae41-dcdc9937aa0a"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -260,6 +260,9 @@
             <LINK relation="DependsOn">
               <ID name="Estadia" mc="Standard.Class" uid="5cee2d98-6378-461e-95ae-fc825188265c"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="parameter" mc="Infrastructure.Stereotype" uid="7454fb85-b726-46fe-8390-ed268fdc9f4f"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
@@ -272,6 +275,9 @@
             <LINK relation="DependsOn">
               <ID name="Hospede" mc="Standard.Class" uid="1581c814-b3b4-487f-ae52-9d67f06abf30"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="parameter" mc="Infrastructure.Stereotype" uid="7454fb85-b726-46fe-8390-ed268fdc9f4f"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
@@ -283,6 +289,9 @@
           <DEPENDENCIES>
             <LINK relation="DependsOn">
               <ID name="Chave" mc="Standard.Class" uid="ca59beef-e9ed-44d0-9dd2-64d64d61a7cb"/>
+            </LINK>
+            <LINK relation="Extension">
+              <ID name="parameter" mc="Infrastructure.Stereotype" uid="7454fb85-b726-46fe-8390-ed268fdc9f4f"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
