@@ -18,7 +18,7 @@
         <COMPID name="ControleCaixa" mc="Standard.Package" uid="3897ba02-c96e-4b65-83e9-d4b061e1ce10"/>
         <COMPID name="Pessoa" mc="Standard.Class" uid="0b7acabe-e388-4e2a-9e1e-7dd21e761f31"/>
         <COMPID name="Cliente" mc="Standard.Class" uid="26245889-ff26-4d2a-af4d-33fc08b77628"/>
-        <COMPID name="Usuário" mc="Standard.Class" uid="da397ccc-449a-470f-8909-02cc666193f2"/>
+        <COMPID name="Usuario" mc="Standard.Class" uid="da397ccc-449a-470f-8909-02cc666193f2"/>
         <OBJECT>
           <ID name="PerfilUsuario" mc="Standard.Enumeration" uid="a46d8385-39d8-49eb-bc4c-7969e54b9a06"/>
           <ATTRIBUTES>
@@ -51,6 +51,16 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <COMPID name="TelaReserva" mc="Standard.Class" uid="1d7e518c-5aeb-4691-93d9-8e26d8a1f174"/>
+        <COMPID name="TelaChekinCheckout" mc="Standard.Class" uid="9373340a-4e2a-4753-be5c-51a2a854d9dd"/>
+        <COMPID name="TelaGerente" mc="Standard.Class" uid="21e62e85-769e-4f33-9e6d-0c885d4385fa"/>
+        <COMPID name="ControladorSuite" mc="Standard.Class" uid="1a209298-005a-4e5d-8844-bfd1e5072ec9"/>
+        <COMPID name="ControladorChave" mc="Standard.Class" uid="9c76ddd8-167d-4add-a7b1-fcca66862498"/>
+        <COMPID name="ControladorUsuario" mc="Standard.Class" uid="f47dfc73-63d8-49ca-8b7d-20eb97105dda"/>
+        <COMPID name="ControladorReserva" mc="Standard.Class" uid="8cd0af12-4c87-454c-bb5c-fd2e5c42e18f"/>
+        <COMPID name="ControladorEstadia" mc="Standard.Class" uid="c4a07ee5-533d-48cb-814e-a4e5d70ee2aa"/>
+        <COMPID name="ControladorFinanceiro" mc="Standard.Class" uid="393b6ead-dbde-4b6f-b745-3291f7601754"/>
+        <COMPID name="ControladorAutenticacao" mc="Standard.Class" uid="417656f6-fb8b-4f0f-ad47-15650abf1539"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Modelo de Projeto Class diagram" mc="Standard.ClassDiagram" uid="37482b38-5184-402e-93a4-4ed0ad0fb320"/>
