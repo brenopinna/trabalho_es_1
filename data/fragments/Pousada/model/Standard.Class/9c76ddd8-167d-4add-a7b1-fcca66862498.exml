@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ControladorChave" version="4">
   <OBJECT>
     <ID name="ControladorChave" mc="Standard.Class" uid="9c76ddd8-167d-4add-a7b1-fcca66862498"/>
-    <PID name="Modelo de Projeto" mc="Standard.Package" uid="da6b3db1-aeb8-4ec7-ab92-b2a5353ed35b"/>
+    <PID name="ControleHospedagem" mc="Standard.Package" uid="84b78132-6d04-496f-ae41-dcdc9937aa0a"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -180,7 +180,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="isDisponivel" mc="Standard.Operation" uid="f16b03c8-8b55-478e-b3ea-2ab759dad07a"/>
+          <ID name="estaDisponivel" mc="Standard.Operation" uid="f16b03c8-8b55-478e-b3ea-2ab759dad07a"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -188,7 +188,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[isDisponivel]]></ATT>
+            <ATT name="Name"><![CDATA[estaDisponivel]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -243,6 +243,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <ID name="control" mc="Infrastructure.Stereotype" uid="95701d8a-8b88-4223-9e6e-480970fb3241"/>
+      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

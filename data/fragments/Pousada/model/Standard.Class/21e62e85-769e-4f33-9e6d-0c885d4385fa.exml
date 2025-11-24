@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TelaGerente" version="4">
   <OBJECT>
     <ID name="TelaGerente" mc="Standard.Class" uid="21e62e85-769e-4f33-9e6d-0c885d4385fa"/>
-    <PID name="Modelo de Projeto" mc="Standard.Package" uid="da6b3db1-aeb8-4ec7-ab92-b2a5353ed35b"/>
+    <PID name="Fronteira" mc="Standard.Package" uid="0e6918cc-8582-4486-8a78-0e5489282b57"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -272,6 +272,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <ID name="boundary" mc="Infrastructure.Stereotype" uid="7cbccc16-dfa2-4f33-9df2-40378487def4"/>
+      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

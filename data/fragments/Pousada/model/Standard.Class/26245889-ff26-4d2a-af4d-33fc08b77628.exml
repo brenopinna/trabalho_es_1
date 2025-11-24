@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cliente" version="4">
   <OBJECT>
     <ID name="Cliente" mc="Standard.Class" uid="26245889-ff26-4d2a-af4d-33fc08b77628"/>
-    <PID name="Modelo de Projeto" mc="Standard.Package" uid="da6b3db1-aeb8-4ec7-ab92-b2a5353ed35b"/>
+    <PID name="Autenticacao" mc="Standard.Package" uid="e4628173-13f0-4a47-a5d8-861cf80d627d"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -88,7 +88,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Usuário" mc="Standard.Class" uid="da397ccc-449a-470f-8909-02cc666193f2"/>
+              <ID name="Usuario" mc="Standard.Class" uid="da397ccc-449a-470f-8909-02cc666193f2"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

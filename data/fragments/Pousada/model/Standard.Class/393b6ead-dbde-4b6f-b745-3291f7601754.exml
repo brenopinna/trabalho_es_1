@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ControladorFinanceiro" version="4">
   <OBJECT>
     <ID name="ControladorFinanceiro" mc="Standard.Class" uid="393b6ead-dbde-4b6f-b745-3291f7601754"/>
-    <PID name="Modelo de Projeto" mc="Standard.Package" uid="da6b3db1-aeb8-4ec7-ab92-b2a5353ed35b"/>
+    <PID name="ControleCaixa" mc="Standard.Package" uid="3897ba02-c96e-4b65-83e9-d4b061e1ce10"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -187,6 +187,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <ID name="control" mc="Infrastructure.Stereotype" uid="95701d8a-8b88-4223-9e6e-480970fb3241"/>
+      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

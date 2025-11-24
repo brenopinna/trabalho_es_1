@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Base" version="4">
+  <OBJECT>
+    <ID name="Base" mc="Standard.Package" uid="c9077424-364b-4b16-b80d-15c5d5f7acae"/>
+    <PID name="Modelo de Projeto" mc="Standard.Package" uid="da6b3db1-aeb8-4ec7-ab92-b2a5353ed35b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Base]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Pessoa" mc="Standard.Class" uid="0b7acabe-e388-4e2a-9e1e-7dd21e761f31"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

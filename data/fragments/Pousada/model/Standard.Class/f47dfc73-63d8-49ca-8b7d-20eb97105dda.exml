@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ControladorUsuario" version="4">
   <OBJECT>
     <ID name="ControladorUsuario" mc="Standard.Class" uid="f47dfc73-63d8-49ca-8b7d-20eb97105dda"/>
-    <PID name="Modelo de Projeto" mc="Standard.Package" uid="da6b3db1-aeb8-4ec7-ab92-b2a5353ed35b"/>
+    <PID name="Autenticacao" mc="Standard.Package" uid="e4628173-13f0-4a47-a5d8-861cf80d627d"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -267,6 +267,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <ID name="control" mc="Infrastructure.Stereotype" uid="95701d8a-8b88-4223-9e6e-480970fb3241"/>
+      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

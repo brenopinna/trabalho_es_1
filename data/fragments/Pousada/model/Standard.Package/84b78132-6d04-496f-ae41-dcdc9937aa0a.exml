@@ -107,6 +107,10 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <COMPID name="ControladorEstadia" mc="Standard.Class" uid="c4a07ee5-533d-48cb-814e-a4e5d70ee2aa"/>
+        <COMPID name="ControladorSuite" mc="Standard.Class" uid="1a209298-005a-4e5d-8844-bfd1e5072ec9"/>
+        <COMPID name="ControladorChave" mc="Standard.Class" uid="9c76ddd8-167d-4add-a7b1-fcca66862498"/>
+        <COMPID name="ControladorReserva" mc="Standard.Class" uid="8cd0af12-4c87-454c-bb5c-fd2e5c42e18f"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
