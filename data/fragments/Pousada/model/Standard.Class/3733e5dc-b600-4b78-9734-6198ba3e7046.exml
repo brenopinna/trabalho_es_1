@@ -33,7 +33,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="c2d8500e-ccd3-466b-943d-2084e95e177a"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="57b8e315-6dd7-44aa-8604-3726104a5280"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -51,11 +51,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Suite" mc="Standard.Class" uid="2c85249c-9a25-4d19-acad-1d9430c08c8f"/>
+              <ID name="ControladorSuite" mc="Standard.Class" uid="1a209298-005a-4e5d-8844-bfd1e5072ec9"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="657ba386-c255-49a6-b5d2-e6fffec53336"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="c4bcd1d1-0457-4bcf-9621-61dff28865ed"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -73,11 +73,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="c2d8500e-ccd3-466b-943d-2084e95e177a"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="57b8e315-6dd7-44aa-8604-3726104a5280"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="65fe30f9-0a2a-4bf6-9cd0-1029999b810c"/>
+                      <ID name="" mc="Standard.Association" uid="259a55f0-22fc-4173-9e4d-8ae266f62df6"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -89,7 +89,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="65fe30f9-0a2a-4bf6-9cd0-1029999b810c"/>
+              <COMPID name="" mc="Standard.Association" uid="259a55f0-22fc-4173-9e4d-8ae266f62df6"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

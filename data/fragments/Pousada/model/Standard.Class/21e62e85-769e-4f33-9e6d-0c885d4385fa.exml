@@ -260,7 +260,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Suite" mc="Standard.Class" uid="2c85249c-9a25-4d19-acad-1d9430c08c8f"/>
+              <ID name="ControladorSuite" mc="Standard.Class" uid="1a209298-005a-4e5d-8844-bfd1e5072ec9"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
