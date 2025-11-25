@@ -362,7 +362,7 @@
               <OBJECT>
                 <ID name="" mc="Standard.Message" uid="9abb1ee4-0d81-439c-a781-bf3f94a18bb0"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"><![CDATA[entrada, valor, data, 'devolucaoReserva', emailUsuario]]></ATT>
+                  <ATT name="Argument"><![CDATA[data, valor, saida 'devolucaoReserva', emailUsuario]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[4]]></ATT>
