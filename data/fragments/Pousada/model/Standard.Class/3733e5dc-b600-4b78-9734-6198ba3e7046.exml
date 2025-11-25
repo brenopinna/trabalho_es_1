@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TelaFichaHospede" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TelaConsultaSuites" version="4">
   <OBJECT>
-    <ID name="TelaFichaHospede" mc="Standard.Class" uid="9373340a-4e2a-4753-be5c-51a2a854d9dd"/>
+    <ID name="TelaConsultaSuites" mc="Standard.Class" uid="3733e5dc-b600-4b78-9734-6198ba3e7046"/>
     <PID name="Fronteira" mc="Standard.Package" uid="0e6918cc-8582-4486-8a78-0e5489282b57"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[TelaFichaHospede]]></ATT>
+      <ATT name="Name"><![CDATA[TelaConsultaSuites]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="realizarCheckIn" mc="Standard.Operation" uid="258eadb7-6ade-476e-905b-d1d016d77bd0"/>
+          <ID name="consultarDisponibilidadeSuites" mc="Standard.Operation" uid="af469319-f1f9-45e3-9767-7702935c8002"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,35 +25,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[realizarCheckIn]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="realizarCheckOut" mc="Standard.Operation" uid="2afd5c05-0f5e-4cce-a3f9-476851453172"/>
-          <ATTRIBUTES>
-            <ATT name="Concurrency">false</ATT>
-            <ATT name="Final">false</ATT>
-            <ATT name="Passing">MethodOut</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[realizarCheckOut]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="controlarFichasHospede" mc="Standard.Operation" uid="cb66f015-5658-4109-a514-73272303eebf"/>
-          <ATTRIBUTES>
-            <ATT name="Concurrency">false</ATT>
-            <ATT name="Final">false</ATT>
-            <ATT name="Passing">MethodOut</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[controlarFichasHospede]]></ATT>
+            <ATT name="Name"><![CDATA[consultarDisponibilidadeSuites]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
@@ -61,7 +33,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="0e79f44a-9d42-4aea-8739-7fa5d35927bf"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="c2d8500e-ccd3-466b-943d-2084e95e177a"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -79,11 +51,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="ControladorEstadia" mc="Standard.Class" uid="c4a07ee5-533d-48cb-814e-a4e5d70ee2aa"/>
+              <ID name="Suite" mc="Standard.Class" uid="2c85249c-9a25-4d19-acad-1d9430c08c8f"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="55b8fccb-7b24-4d13-b9a4-b070e4d201ff"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="657ba386-c255-49a6-b5d2-e6fffec53336"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -101,11 +73,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="0e79f44a-9d42-4aea-8739-7fa5d35927bf"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="c2d8500e-ccd3-466b-943d-2084e95e177a"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="1bb0b812-2773-438b-b7ae-82fc59a590d9"/>
+                      <ID name="" mc="Standard.Association" uid="65fe30f9-0a2a-4bf6-9cd0-1029999b810c"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -117,7 +89,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="1bb0b812-2773-438b-b7ae-82fc59a590d9"/>
+              <COMPID name="" mc="Standard.Association" uid="65fe30f9-0a2a-4bf6-9cd0-1029999b810c"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

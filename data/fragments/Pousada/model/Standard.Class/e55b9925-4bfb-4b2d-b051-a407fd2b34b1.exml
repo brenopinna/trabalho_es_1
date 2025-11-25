@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Movimentacao" version="4">
   <OBJECT>
     <ID name="Movimentacao" mc="Standard.Class" uid="e55b9925-4bfb-4b2d-b051-a407fd2b34b1"/>
-    <PID name="ControleCaixa" mc="Standard.Package" uid="3897ba02-c96e-4b65-83e9-d4b061e1ce10"/>
+    <PID name="Financeiro" mc="Standard.Package" uid="3897ba02-c96e-4b65-83e9-d4b061e1ce10"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
