@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Chave" version="4">
   <OBJECT>
     <ID name="Chave" mc="Standard.Class" uid="1376c4bb-573e-47a5-b730-776c2bb9bf40"/>
-    <PID name="ControleHospedagem" mc="Standard.Package" uid="53ddeaaa-1321-4dde-a43b-e89e683c3593"/>
+    <PID name="Hospedagem" mc="Standard.Package" uid="53ddeaaa-1321-4dde-a43b-e89e683c3593"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -43,10 +43,10 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="8193613b-7bd9-4628-9009-510eec619620"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="64d1628c-5706-48cd-a0f8-d109020ea674"/>
         </REFOBJ>
         <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="64d1628c-5706-48cd-a0f8-d109020ea674"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="d02c4ca3-ba9a-477c-8485-74c85f3ec830"/>
         </REFOBJ>
       </COMP>
     </DEPENDENCIES>

@@ -49,6 +49,14 @@
                 <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
               <OBJECT>
+                <ID name="pendente" mc="Standard.EnumerationLiteral" uid="4e48e8ce-c6eb-4305-8a88-a9ef2c26a136"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[pendente]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
                 <ID name="cancelada" mc="Standard.EnumerationLiteral" uid="b1bab1ad-9dcb-43b0-830b-adab6848fe27"/>
                 <ATTRIBUTES>
                   <ATT name="Name"><![CDATA[cancelada]]></ATT>
@@ -92,14 +100,6 @@
                 <ID name="emManutencao" mc="Standard.EnumerationLiteral" uid="6ff0eba8-fee5-474f-b682-f752c34c7f4b"/>
                 <ATTRIBUTES>
                   <ATT name="Name"><![CDATA[emManutencao]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="pendente" mc="Standard.EnumerationLiteral" uid="a746770e-826e-4403-a668-164a5d4d50a5"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[pendente]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>

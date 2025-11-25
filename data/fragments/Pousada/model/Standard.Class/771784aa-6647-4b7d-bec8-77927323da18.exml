@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Hospede" version="4">
   <OBJECT>
     <ID name="Hospede" mc="Standard.Class" uid="771784aa-6647-4b7d-bec8-77927323da18"/>
-    <PID name="ControleHospedagem" mc="Standard.Package" uid="53ddeaaa-1321-4dde-a43b-e89e683c3593"/>
+    <PID name="Hospedagem" mc="Standard.Package" uid="53ddeaaa-1321-4dde-a43b-e89e683c3593"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -132,9 +132,9 @@
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="b807b02f-9165-445b-b33d-bed1b46c2509"/>
+                      <ID name="detém" mc="Standard.Association" uid="b807b02f-9165-445b-b33d-bed1b46c2509"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
+                        <ATT name="Name"><![CDATA[detém]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -160,7 +160,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="b807b02f-9165-445b-b33d-bed1b46c2509"/>
+              <COMPID name="detém" mc="Standard.Association" uid="b807b02f-9165-445b-b33d-bed1b46c2509"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
@@ -189,7 +189,7 @@
             </COMP>
             <COMP relation="Association">
               <REFOBJ>
-                <ID name="" mc="Standard.Association" uid="d6967ea1-db93-4ab3-a9fb-31a10e38a74a"/>
+                <ID name="realiza" mc="Standard.Association" uid="d6967ea1-db93-4ab3-a9fb-31a10e38a74a"/>
               </REFOBJ>
             </COMP>
           </DEPENDENCIES>
@@ -219,9 +219,9 @@
             </COMP>
             <COMP relation="Association">
               <OBJECT>
-                <ID name="" mc="Standard.Association" uid="856dbed8-155d-4d08-9aca-5586ea35c053"/>
+                <ID name="está incluído em" mc="Standard.Association" uid="856dbed8-155d-4d08-9aca-5586ea35c053"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Name"><![CDATA[está incluído em]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
@@ -229,64 +229,9 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <OBJECT>
-          <ID name="menor de idade" mc="Standard.AssociationEnd" uid="16f5374e-b1a3-46c9-b7b9-7696d37697b0"/>
-          <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
-            <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">AccesNone</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[menor de idade]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Opposite">
-              <OBJECT>
-                <ID name="responsável" mc="Standard.AssociationEnd" uid="04838ada-67bc-43ca-bf3e-d0f8da3d5faf"/>
-                <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
-                  <ATT name="IsChangeable">true</ATT>
-                  <ATT name="Changeable">AccesNone</ATT>
-                  <ATT name="IsDerived">false</ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Visibility">Public</ATT>
-                  <ATT name="IsClass">false</ATT>
-                  <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[responsável]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Opposite">
-                    <COMPID name="menor de idade" mc="Standard.AssociationEnd" uid="16f5374e-b1a3-46c9-b7b9-7696d37697b0"/>
-                  </COMP>
-                  <COMP relation="Association">
-                    <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="b0b35fc5-27a6-4d0a-b71e-16584c648017"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="b0b35fc5-27a6-4d0a-b71e-16584c648017"/>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="16f5374e-b1a3-46c9-b7b9-7696d37697b0"/>
+        </REFOBJ>
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
