@@ -15,7 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="TelaReserva" mc="Standard.Class" uid="1d7e518c-5aeb-4691-93d9-8e26d8a1f174"/>
-        <COMPID name="TelaCheckInOut" mc="Standard.Class" uid="9373340a-4e2a-4753-be5c-51a2a854d9dd"/>
+        <COMPID name="TelaFichaHospede" mc="Standard.Class" uid="9373340a-4e2a-4753-be5c-51a2a854d9dd"/>
         <COMPID name="TelaGerente" mc="Standard.Class" uid="21e62e85-769e-4f33-9e6d-0c885d4385fa"/>
         <COMPID name="TelaAutenticacao" mc="Standard.Class" uid="f324e7da-c7bc-4f6e-9631-647bc8e434c3"/>
         <COMPID name="TelaConsultaSuites" mc="Standard.Class" uid="3733e5dc-b600-4b78-9734-6198ba3e7046"/>
