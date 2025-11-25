@@ -1,4 +1,5 @@
-#Tue Nov 25 03:13:43 BRT 2025
+#Tue Nov 25 08:20:14 BRT 2025
 org.modelio.app.diagram.editor.OpenedDiagrams0='Modelo de Projeto Class diagram' {37482b38-5184-402e-93a4-4ed0ad0fb320} Standard.ClassDiagram
 org.modelio.app.model.search.ui.SearchHistory1=generalclass
-org.modelio.app.diagram.editor.OpenedDiagrams1='Cancelar Reserva' {34e87c1c-421d-4ab8-9a1d-7691c77eda82} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='Interaction Sequence diagram' {34e87c1c-421d-4ab8-9a1d-7691c77eda82} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Interaction Sequence diagram' {76eb319a-87b0-4f4b-b4fc-cab9bd14e98a} Standard.SequenceDiagram

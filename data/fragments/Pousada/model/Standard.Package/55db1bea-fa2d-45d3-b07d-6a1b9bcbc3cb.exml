@@ -16,6 +16,7 @@
       <COMP relation="OwnedBehavior">
         <COMPID name="Confirmar Reserva" mc="Standard.Interaction" uid="88a92402-d1ae-49dc-88f9-2bbdc1f89fa4"/>
         <COMPID name="Cancelar Reserva" mc="Standard.Interaction" uid="e5cb0a59-dc25-4bb2-a7db-19dd7ba1c097"/>
+        <COMPID name="Consultar Reservas" mc="Standard.Interaction" uid="51d44956-35b2-4619-b0e2-269ae36278c5"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Instâncias" mc="Standard.Package" uid="d9cdc87f-12fb-4ba4-8456-a00b37a2b14f"/>

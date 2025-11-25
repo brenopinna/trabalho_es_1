@@ -282,7 +282,7 @@
                   </LINK>
                   <LINK relation="Invoked">
                     <REFOBJ>
-                      <ID name="getStatus" mc="Standard.Operation" uid="e4fdfba4-565c-4ca8-a9e7-14a173ad1aad"/>
+                      <ID name="setStatus" mc="Standard.Operation" uid="905db351-f2c8-4c31-8967-2009cc062acd"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -604,7 +604,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Cancelar Reserva" mc="Standard.SequenceDiagram" uid="34e87c1c-421d-4ab8-9a1d-7691c77eda82"/>
+        <COMPID name="Interaction Sequence diagram" mc="Standard.SequenceDiagram" uid="34e87c1c-421d-4ab8-9a1d-7691c77eda82"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
